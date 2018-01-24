@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4B6F681FFC92010032C025 /* Lee_SQLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */; };
+		9B4B6F6B1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F6A1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m */; };
+		9B4B6F6E1FFCB0360032C025 /* Lee_SQLInsertBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F6D1FFCB0360032C025 /* Lee_SQLInsertBuilder.m */; };
+		9B7B03F120159704001CDAEB /* InfiniteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B03F020159704001CDAEB /* InfiniteBanner.m */; };
+		9B7B03F42015986E001CDAEB /* InfiniteConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B03F32015986E001CDAEB /* InfiniteConfiguration.m */; };
 		9BEEC39B1FE35DA30016D5DD /* LeeCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */; };
 		9BFC7BBB1FE2265300C53E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC7BBA1FE2265300C53E54 /* AppDelegate.m */; };
 		9BFC7BBE1FE2265300C53E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC7BBD1FE2265300C53E54 /* ViewController.m */; };
@@ -38,6 +43,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B4B6F661FFC92010032C025 /* Lee_SQLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lee_SQLBuilder.h; sourceTree = "<group>"; };
+		9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lee_SQLBuilder.m; sourceTree = "<group>"; };
+		9B4B6F691FFC9BED0032C025 /* Lee_SQLSelectBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lee_SQLSelectBuilder.h; sourceTree = "<group>"; };
+		9B4B6F6A1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lee_SQLSelectBuilder.m; sourceTree = "<group>"; };
+		9B4B6F6C1FFCB0360032C025 /* Lee_SQLInsertBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lee_SQLInsertBuilder.h; sourceTree = "<group>"; };
+		9B4B6F6D1FFCB0360032C025 /* Lee_SQLInsertBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lee_SQLInsertBuilder.m; sourceTree = "<group>"; };
+		9B7B03EF20159704001CDAEB /* InfiniteBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteBanner.h; sourceTree = "<group>"; };
+		9B7B03F020159704001CDAEB /* InfiniteBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteBanner.m; sourceTree = "<group>"; };
+		9B7B03F22015986E001CDAEB /* InfiniteConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteConfiguration.h; sourceTree = "<group>"; };
+		9B7B03F32015986E001CDAEB /* InfiniteConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteConfiguration.m; sourceTree = "<group>"; };
 		9BEEC3991FE35DA30016D5DD /* LeeCustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeCustomNavigationBar.h; sourceTree = "<group>"; };
 		9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeCustomNavigationBar.m; sourceTree = "<group>"; };
 		9BFC7BB61FE2265300C53E54 /* LeeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +125,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B4B6F631FFC83D60032C025 /* ORMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B6F641FFC91D00032C025 /* SQL */,
+			);
+			path = ORMDB;
+			sourceTree = "<group>";
+		};
+		9B4B6F641FFC91D00032C025 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B6F651FFC91DF0032C025 /* Base */,
+				9B4B6F661FFC92010032C025 /* Lee_SQLBuilder.h */,
+				9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		9B4B6F651FFC91DF0032C025 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B6F691FFC9BED0032C025 /* Lee_SQLSelectBuilder.h */,
+				9B4B6F6A1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m */,
+				9B4B6F6C1FFCB0360032C025 /* Lee_SQLInsertBuilder.h */,
+				9B4B6F6D1FFCB0360032C025 /* Lee_SQLInsertBuilder.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9B7B03EE20159695001CDAEB /* BannerScroll */ = {
+			isa = PBXGroup;
+			children = (
+				9B7B03F22015986E001CDAEB /* InfiniteConfiguration.h */,
+				9B7B03F32015986E001CDAEB /* InfiniteConfiguration.m */,
+				9B7B03EF20159704001CDAEB /* InfiniteBanner.h */,
+				9B7B03F020159704001CDAEB /* InfiniteBanner.m */,
+			);
+			path = BannerScroll;
+			sourceTree = "<group>";
+		};
 		9BEEC3951FE35CE80016D5DD /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +193,8 @@
 		9BFC7BB81FE2265300C53E54 /* LeeKit */ = {
 			isa = PBXGroup;
 			children = (
+				9B7B03EE20159695001CDAEB /* BannerScroll */,
+				9B4B6F631FFC83D60032C025 /* ORMDB */,
 				9BEEC3951FE35CE80016D5DD /* NavigationBar */,
 				9BFC7BCF1FE2266100C53E54 /* NetWork */,
 				9BFC7BB91FE2265300C53E54 /* AppDelegate.h */,
@@ -327,6 +384,7 @@
 				9BFC7BBE1FE2265300C53E54 /* ViewController.m in Sources */,
 				9BFC7C0C1FE226EC00C53E54 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				9BFC7BDA1FE226A300C53E54 /* YYDiskCache.m in Sources */,
+				9B4B6F681FFC92010032C025 /* Lee_SQLBuilder.m in Sources */,
 				9BFC7C0F1FE226F600C53E54 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				9BFC7C051FE226D400C53E54 /* AFHTTPSessionManager.m in Sources */,
 				9BEEC39B1FE35DA30016D5DD /* LeeCustomNavigationBar.m in Sources */,
@@ -337,7 +395,11 @@
 				9BFC7BBB1FE2265300C53E54 /* AppDelegate.m in Sources */,
 				9BFC7C181FE2273A00C53E54 /* LeeNetworkCache.m in Sources */,
 				9BFC7C071FE226D900C53E54 /* AFURLRequestSerialization.m in Sources */,
+				9B4B6F6B1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m in Sources */,
 				9BFC7BDD1FE226AD00C53E54 /* YYMemoryCache.m in Sources */,
+				9B4B6F6E1FFCB0360032C025 /* Lee_SQLInsertBuilder.m in Sources */,
+				9B7B03F120159704001CDAEB /* InfiniteBanner.m in Sources */,
+				9B7B03F42015986E001CDAEB /* InfiniteConfiguration.m in Sources */,
 				9BFC7C091FE226DF00C53E54 /* AFSecurityPolicy.m in Sources */,
 				9BFC7C041FE226D100C53E54 /* AFURLResponseSerialization.m in Sources */,
 				9BFC7C081FE226DC00C53E54 /* AFNetworkReachabilityManager.m in Sources */,
