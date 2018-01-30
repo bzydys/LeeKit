@@ -11,8 +11,13 @@
 #import "Lee_SQLInsertBuilder.h"
 #import "InfiniteBanner.h"
 #import "InfiniteConfiguration.h"
+#import "RedView.h"
+#import "ModalView.h"
 
 @interface ViewController ()
+{
+    ModalView *_modal;
+}
 
 @end
 
@@ -29,19 +34,27 @@
     config.direction = PageControllDirectionRight;
     config.duration = 2;
     banner.config = config;
-//    [banner showImagesWithUrls:@[[NSURL URLWithString:@"http://d.hiphotos.baidu.com/image/pic/item/8435e5dde71190ef4d91e30fc51b9d16fcfa60f3.jpg"],[NSURL URLWithString:@"http://a.hiphotos.baidu.com/image/pic/item/f31fbe096b63f62493a948d38c44ebf81b4ca36e.jpg"]] loadMethod:^(NSURL *url, UIImageView *imgView) {
-//        dispatch_async(dispatch_get_global_queue(0, 0), ^{
-//            NSData *data = [NSData dataWithContentsOfURL:url];
-//            dispatch_async(dispatch_get_main_queue(), ^{
-//                imgView.image = [UIImage imageWithData:data];
-//            });
-//
-//        });
-//    }];
     [banner showImages:@[[UIImage imageNamed:@"c.jpg"]]];
+    RedView *v = [[RedView alloc] init];
+    v.frame = CGRectMake(75, 0, 300, 667);
+    v.backgroundColor = [UIColor redColor];
+    
+    UIView *bv = [[UIView alloc] init];
+    bv.frame = CGRectMake(20, 50, 335, 70);
+    bv.backgroundColor = [UIColor yellowColor];
+    [v addSubview:bv];
+    
+    ModalView *modal = [[ModalView alloc] initWithCtrl:self contentView:v];
+    [modal setStyle:ModalStyleRight];
+    _modal = modal;
+    
     
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [_modal showModalAnimate:NO];
 }
 
 

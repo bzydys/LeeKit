@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B39B8D5201C5620009156BC /* ModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39B8D4201C5620009156BC /* ModalView.m */; };
+		9B39B8D920201CA7009156BC /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39B8D820201CA7009156BC /* RedView.m */; };
 		9B4B6F681FFC92010032C025 /* Lee_SQLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */; };
 		9B4B6F6B1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F6A1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m */; };
 		9B4B6F6E1FFCB0360032C025 /* Lee_SQLInsertBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F6D1FFCB0360032C025 /* Lee_SQLInsertBuilder.m */; };
@@ -43,6 +45,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B39B8D3201C5620009156BC /* ModalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalView.h; sourceTree = "<group>"; };
+		9B39B8D4201C5620009156BC /* ModalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalView.m; sourceTree = "<group>"; };
+		9B39B8D620200057009156BC /* ModalContentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalContentProtocol.h; sourceTree = "<group>"; };
+		9B39B8D720201CA7009156BC /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		9B39B8D820201CA7009156BC /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		9B4B6F661FFC92010032C025 /* Lee_SQLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lee_SQLBuilder.h; sourceTree = "<group>"; };
 		9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lee_SQLBuilder.m; sourceTree = "<group>"; };
 		9B4B6F691FFC9BED0032C025 /* Lee_SQLSelectBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lee_SQLSelectBuilder.h; sourceTree = "<group>"; };
@@ -125,6 +132,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B39B8D2201C55D0009156BC /* ModalView */ = {
+			isa = PBXGroup;
+			children = (
+				9B39B8D620200057009156BC /* ModalContentProtocol.h */,
+				9B39B8D3201C5620009156BC /* ModalView.h */,
+				9B39B8D4201C5620009156BC /* ModalView.m */,
+			);
+			path = ModalView;
+			sourceTree = "<group>";
+		};
 		9B4B6F631FFC83D60032C025 /* ORMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,12 +210,15 @@
 		9BFC7BB81FE2265300C53E54 /* LeeKit */ = {
 			isa = PBXGroup;
 			children = (
+				9B39B8D2201C55D0009156BC /* ModalView */,
 				9B7B03EE20159695001CDAEB /* BannerScroll */,
 				9B4B6F631FFC83D60032C025 /* ORMDB */,
 				9BEEC3951FE35CE80016D5DD /* NavigationBar */,
 				9BFC7BCF1FE2266100C53E54 /* NetWork */,
 				9BFC7BB91FE2265300C53E54 /* AppDelegate.h */,
 				9BFC7BBA1FE2265300C53E54 /* AppDelegate.m */,
+				9B39B8D720201CA7009156BC /* RedView.h */,
+				9B39B8D820201CA7009156BC /* RedView.m */,
 				9BFC7BBC1FE2265300C53E54 /* ViewController.h */,
 				9BFC7BBD1FE2265300C53E54 /* ViewController.m */,
 				9BFC7BBF1FE2265300C53E54 /* Main.storyboard */,
@@ -399,7 +419,9 @@
 				9BFC7BDD1FE226AD00C53E54 /* YYMemoryCache.m in Sources */,
 				9B4B6F6E1FFCB0360032C025 /* Lee_SQLInsertBuilder.m in Sources */,
 				9B7B03F120159704001CDAEB /* InfiniteBanner.m in Sources */,
+				9B39B8D5201C5620009156BC /* ModalView.m in Sources */,
 				9B7B03F42015986E001CDAEB /* InfiniteConfiguration.m in Sources */,
+				9B39B8D920201CA7009156BC /* RedView.m in Sources */,
 				9BFC7C091FE226DF00C53E54 /* AFSecurityPolicy.m in Sources */,
 				9BFC7C041FE226D100C53E54 /* AFURLResponseSerialization.m in Sources */,
 				9BFC7C081FE226DC00C53E54 /* AFNetworkReachabilityManager.m in Sources */,
