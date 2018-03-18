@@ -14,4 +14,8 @@
     return CGRectMake(0, 0, 375, 280);
 }
 
+-(BOOL)isFullScreen{
+    return YES;
+}
+
 @end

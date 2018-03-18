@@ -33,8 +33,15 @@
 
 -(void)showModalAnimate:(BOOL)animate{
     if (!_backgroudView.superview) {
-        [_ctrl.view addSubview:_backgroudView];
-        [_ctrl.view addSubview:_contentView];
+        
+        if ([_contentView isFullScreen] && _ctrl.navigationController) {
+            [_ctrl.navigationController.view addSubview:_backgroudView];
+            [_ctrl.navigationController.view addSubview:_contentView];
+        }else{
+            [_ctrl.view addSubview:_backgroudView];
+            [_ctrl.view addSubview:_contentView];
+        }
+        
         if (animate) {
             [UIView animateWithDuration:0.35 animations:^{
                 _backgroudView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.6];

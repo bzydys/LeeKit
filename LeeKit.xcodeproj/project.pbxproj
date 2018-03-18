@@ -7,13 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B05220520576F76002879FC /* LeeKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05220420576F76002879FC /* LeeKeyboardManager.m */; };
+		9B0522082057AFFF002879FC /* LeeTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0522072057AFFF002879FC /* LeeTips.m */; };
+		9B05223E2057BEBC002879FC /* LeeToastResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B05223D2057BEBB002879FC /* LeeToastResource.bundle */; };
+		9B0522412057C549002879FC /* LeeMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0522402057C549002879FC /* LeeMarqueeLabel.m */; };
+		9B0522442058C388002879FC /* LeeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0522432058C388002879FC /* LeeButton.m */; };
+		9B052248205915C1002879FC /* LeePopupContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B052247205915C1002879FC /* LeePopupContainerView.m */; };
+		9B05224B205915DB002879FC /* LeePopupMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05224A205915DB002879FC /* LeePopupMenuView.m */; };
+		9B07E51E205B964A00EC614C /* LeeAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07E51D205B964A00EC614C /* LeeAlertViewController.m */; };
+		9B1CE513205282140025A143 /* LeeUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE512205282140025A143 /* LeeUITextField.m */; };
+		9B1CE52A205380AF0025A143 /* LeeGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE529205380AF0025A143 /* LeeGridView.m */; };
+		9B1CE52D205620360025A143 /* LeeEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE52C205620360025A143 /* LeeEmptyView.m */; };
+		9B1CE531205669950025A143 /* LeeToastAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE530205669950025A143 /* LeeToastAnimator.m */; };
+		9B1CE534205669B90025A143 /* LeeToastBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE533205669B90025A143 /* LeeToastBackgroundView.m */; };
+		9B1CE537205669D20025A143 /* LeeToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE536205669D20025A143 /* LeeToastContentView.m */; };
+		9B1CE53A205669F20025A143 /* LeeToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE539205669F20025A143 /* LeeToastView.m */; };
 		9B39B8D5201C5620009156BC /* ModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39B8D4201C5620009156BC /* ModalView.m */; };
 		9B39B8D920201CA7009156BC /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39B8D820201CA7009156BC /* RedView.m */; };
 		9B4B6F681FFC92010032C025 /* Lee_SQLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */; };
 		9B4B6F6B1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F6A1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m */; };
 		9B4B6F6E1FFCB0360032C025 /* Lee_SQLInsertBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F6D1FFCB0360032C025 /* Lee_SQLInsertBuilder.m */; };
+		9B60CDB1205E51B000205988 /* LeeVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B60CDB0205E51B000205988 /* LeeVisualEffectView.m */; };
+		9B60CDB4205E53B800205988 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B60CDB2205E53B700205988 /* UIImageEffects.m */; };
+		9B60CDB7205E548400205988 /* LeeFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B60CDB6205E548400205988 /* LeeFloatLayout.m */; };
 		9B7B03F120159704001CDAEB /* InfiniteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B03F020159704001CDAEB /* InfiniteBanner.m */; };
 		9B7B03F42015986E001CDAEB /* InfiniteConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B03F32015986E001CDAEB /* InfiniteConfiguration.m */; };
+		9B9A7C8A2044FF12000EAC50 /* ImageClipedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7C892044FF12000EAC50 /* ImageClipedManager.m */; };
+		9B9A7C8D20454F5A000EAC50 /* UIButton+imageCliped.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7C8C20454F5A000EAC50 /* UIButton+imageCliped.m */; };
+		9B9A7C9120455C71000EAC50 /* TagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7C9020455C71000EAC50 /* TagView.m */; };
+		9B9D93DE204D000800FBB054 /* UINavigationBar+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93DD204D000800FBB054 /* UINavigationBar+Transition.m */; };
+		9B9D93E1204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93E0204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.m */; };
+		9B9D93E5204D47A200FBB054 /* LeeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93E4204D47A200FBB054 /* LeeNavigationController.m */; };
+		9B9D93EC204E3A4000FBB054 /* CALayer+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93EB204E3A4000FBB054 /* CALayer+Lee.m */; };
+		9B9D93F0204E416E00FBB054 /* NSAttributedString+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93EF204E416E00FBB054 /* NSAttributedString+Lee.m */; };
+		9B9D93F3204E468800FBB054 /* NSString+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93F2204E468800FBB054 /* NSString+Lee.m */; };
+		9B9D93F6204E484C00FBB054 /* UIActivityIndicatorView+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93F5204E484C00FBB054 /* UIActivityIndicatorView+Lee.m */; };
+		9B9D93F9204E48E500FBB054 /* UIBezierPath+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93F8204E48E500FBB054 /* UIBezierPath+Lee.m */; };
+		9B9D93FC204E4F2600FBB054 /* UIButton+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93FB204E4F2600FBB054 /* UIButton+Lee.m */; };
+		9B9D93FF204E599800FBB054 /* UIColor+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D93FE204E599800FBB054 /* UIColor+Lee.m */; };
+		9B9D9402204E608B00FBB054 /* UIControl+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9401204E608A00FBB054 /* UIControl+Lee.m */; };
+		9B9D9405204E745A00FBB054 /* UIImage+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9404204E745A00FBB054 /* UIImage+Lee.m */; };
+		9B9D940A204FC9E900FBB054 /* UIImageView+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9409204FC9E900FBB054 /* UIImageView+Lee.m */; };
+		9B9D940D204FCDEB00FBB054 /* UILabel+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D940C204FCDEB00FBB054 /* UILabel+Lee.m */; };
+		9B9D9410204FD58B00FBB054 /* UIScrollView+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D940F204FD58B00FBB054 /* UIScrollView+Lee.m */; };
+		9B9D9413204FD95500FBB054 /* UITabBar+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9412204FD95500FBB054 /* UITabBar+Lee.m */; };
+		9B9D9416204FDB6900FBB054 /* UITabBarItem+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9415204FDB6900FBB054 /* UITabBarItem+Lee.m */; };
+		9B9D9419204FE70900FBB054 /* UITextField+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9418204FE70900FBB054 /* UITextField+Lee.m */; };
+		9B9D941C204FE81F00FBB054 /* UITextView+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D941B204FE81F00FBB054 /* UITextView+Lee.m */; };
+		9B9D9420205102C800FBB054 /* UIView+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D941F205102C800FBB054 /* UIView+Lee.m */; };
+		9B9D9423205114C200FBB054 /* UIViewController+Lee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9422205114C200FBB054 /* UIViewController+Lee.m */; };
+		9B9D9427205128AD00FBB054 /* LeeCollectionViewPageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D9426205128AD00FBB054 /* LeeCollectionViewPageLayout.m */; };
+		9B9D942E2052714B00FBB054 /* LeeUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D942D2052714B00FBB054 /* LeeUILabel.m */; };
+		9BA8CCB7205A6E8B00968DC3 /* LeeModalPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8CCB6205A6E8B00968DC3 /* LeeModalPresentationViewController.m */; };
+		9BB4672D203C438500F39BBC /* TagConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4672C203C438500F39BBC /* TagConfig.m */; };
+		9BB46731203C56F600F39BBC /* UIImage+corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46730203C56F600F39BBC /* UIImage+corner.m */; };
+		9BB467342043BE3300F39BBC /* UIView+corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB467332043BE3300F39BBC /* UIView+corner.m */; };
 		9BEEC39B1FE35DA30016D5DD /* LeeCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */; };
 		9BFC7BBB1FE2265300C53E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC7BBA1FE2265300C53E54 /* AppDelegate.m */; };
 		9BFC7BBE1FE2265300C53E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC7BBD1FE2265300C53E54 /* ViewController.m */; };
@@ -45,6 +93,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B05220320576F76002879FC /* LeeKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeKeyboardManager.h; sourceTree = "<group>"; };
+		9B05220420576F76002879FC /* LeeKeyboardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeKeyboardManager.m; sourceTree = "<group>"; };
+		9B0522062057AFFF002879FC /* LeeTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeTips.h; sourceTree = "<group>"; };
+		9B0522072057AFFF002879FC /* LeeTips.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeTips.m; sourceTree = "<group>"; };
+		9B05223D2057BEBB002879FC /* LeeToastResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LeeToastResource.bundle; sourceTree = "<group>"; };
+		9B05223F2057C549002879FC /* LeeMarqueeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeMarqueeLabel.h; sourceTree = "<group>"; };
+		9B0522402057C549002879FC /* LeeMarqueeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeMarqueeLabel.m; sourceTree = "<group>"; };
+		9B0522422058C388002879FC /* LeeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeButton.h; sourceTree = "<group>"; };
+		9B0522432058C388002879FC /* LeeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeButton.m; sourceTree = "<group>"; };
+		9B052246205915C1002879FC /* LeePopupContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeePopupContainerView.h; sourceTree = "<group>"; };
+		9B052247205915C1002879FC /* LeePopupContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeePopupContainerView.m; sourceTree = "<group>"; };
+		9B052249205915DB002879FC /* LeePopupMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeePopupMenuView.h; sourceTree = "<group>"; };
+		9B05224A205915DB002879FC /* LeePopupMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeePopupMenuView.m; sourceTree = "<group>"; };
+		9B07E51C205B964A00EC614C /* LeeAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeAlertViewController.h; sourceTree = "<group>"; };
+		9B07E51D205B964A00EC614C /* LeeAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeAlertViewController.m; sourceTree = "<group>"; };
+		9B1CE511205282140025A143 /* LeeUITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeUITextField.h; sourceTree = "<group>"; };
+		9B1CE512205282140025A143 /* LeeUITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeUITextField.m; sourceTree = "<group>"; };
+		9B1CE528205380AF0025A143 /* LeeGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeGridView.h; sourceTree = "<group>"; };
+		9B1CE529205380AF0025A143 /* LeeGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeGridView.m; sourceTree = "<group>"; };
+		9B1CE52B205620360025A143 /* LeeEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeEmptyView.h; sourceTree = "<group>"; };
+		9B1CE52C205620360025A143 /* LeeEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeEmptyView.m; sourceTree = "<group>"; };
+		9B1CE52F205669950025A143 /* LeeToastAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeToastAnimator.h; sourceTree = "<group>"; };
+		9B1CE530205669950025A143 /* LeeToastAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeToastAnimator.m; sourceTree = "<group>"; };
+		9B1CE532205669B90025A143 /* LeeToastBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeToastBackgroundView.h; sourceTree = "<group>"; };
+		9B1CE533205669B90025A143 /* LeeToastBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeToastBackgroundView.m; sourceTree = "<group>"; };
+		9B1CE535205669D20025A143 /* LeeToastContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeToastContentView.h; sourceTree = "<group>"; };
+		9B1CE536205669D20025A143 /* LeeToastContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeToastContentView.m; sourceTree = "<group>"; };
+		9B1CE538205669F20025A143 /* LeeToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeToastView.h; sourceTree = "<group>"; };
+		9B1CE539205669F20025A143 /* LeeToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeToastView.m; sourceTree = "<group>"; };
 		9B39B8D3201C5620009156BC /* ModalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalView.h; sourceTree = "<group>"; };
 		9B39B8D4201C5620009156BC /* ModalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalView.m; sourceTree = "<group>"; };
 		9B39B8D620200057009156BC /* ModalContentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalContentProtocol.h; sourceTree = "<group>"; };
@@ -56,10 +133,77 @@
 		9B4B6F6A1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lee_SQLSelectBuilder.m; sourceTree = "<group>"; };
 		9B4B6F6C1FFCB0360032C025 /* Lee_SQLInsertBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lee_SQLInsertBuilder.h; sourceTree = "<group>"; };
 		9B4B6F6D1FFCB0360032C025 /* Lee_SQLInsertBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lee_SQLInsertBuilder.m; sourceTree = "<group>"; };
+		9B60CDAF205E51B000205988 /* LeeVisualEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeVisualEffectView.h; sourceTree = "<group>"; };
+		9B60CDB0205E51B000205988 /* LeeVisualEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeVisualEffectView.m; sourceTree = "<group>"; };
+		9B60CDB2205E53B700205988 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		9B60CDB3205E53B700205988 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		9B60CDB5205E548400205988 /* LeeFloatLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeFloatLayout.h; sourceTree = "<group>"; };
+		9B60CDB6205E548400205988 /* LeeFloatLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeFloatLayout.m; sourceTree = "<group>"; };
 		9B7B03EF20159704001CDAEB /* InfiniteBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteBanner.h; sourceTree = "<group>"; };
 		9B7B03F020159704001CDAEB /* InfiniteBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteBanner.m; sourceTree = "<group>"; };
 		9B7B03F22015986E001CDAEB /* InfiniteConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteConfiguration.h; sourceTree = "<group>"; };
 		9B7B03F32015986E001CDAEB /* InfiniteConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteConfiguration.m; sourceTree = "<group>"; };
+		9B9A7C882044FF12000EAC50 /* ImageClipedManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageClipedManager.h; sourceTree = "<group>"; };
+		9B9A7C892044FF12000EAC50 /* ImageClipedManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageClipedManager.m; sourceTree = "<group>"; };
+		9B9A7C8B20454F5A000EAC50 /* UIButton+imageCliped.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+imageCliped.h"; sourceTree = "<group>"; };
+		9B9A7C8C20454F5A000EAC50 /* UIButton+imageCliped.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imageCliped.m"; sourceTree = "<group>"; };
+		9B9A7C8F20455C71000EAC50 /* TagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagView.h; sourceTree = "<group>"; };
+		9B9A7C9020455C71000EAC50 /* TagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagView.m; sourceTree = "<group>"; };
+		9B9D93DC204D000800FBB054 /* UINavigationBar+Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Transition.h"; sourceTree = "<group>"; };
+		9B9D93DD204D000800FBB054 /* UINavigationBar+Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transition.m"; sourceTree = "<group>"; };
+		9B9D93DF204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NavigationBarTransition.h"; sourceTree = "<group>"; };
+		9B9D93E0204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NavigationBarTransition.m"; sourceTree = "<group>"; };
+		9B9D93E2204D434B00FBB054 /* LeeNavigationControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		9B9D93E3204D47A200FBB054 /* LeeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeNavigationController.h; sourceTree = "<group>"; };
+		9B9D93E4204D47A200FBB054 /* LeeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeNavigationController.m; sourceTree = "<group>"; };
+		9B9D93EA204E3A4000FBB054 /* CALayer+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Lee.h"; sourceTree = "<group>"; };
+		9B9D93EB204E3A4000FBB054 /* CALayer+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Lee.m"; sourceTree = "<group>"; };
+		9B9D93EE204E416E00FBB054 /* NSAttributedString+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Lee.h"; sourceTree = "<group>"; };
+		9B9D93EF204E416E00FBB054 /* NSAttributedString+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Lee.m"; sourceTree = "<group>"; };
+		9B9D93F1204E468800FBB054 /* NSString+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Lee.h"; sourceTree = "<group>"; };
+		9B9D93F2204E468800FBB054 /* NSString+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Lee.m"; sourceTree = "<group>"; };
+		9B9D93F4204E484C00FBB054 /* UIActivityIndicatorView+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+Lee.h"; sourceTree = "<group>"; };
+		9B9D93F5204E484C00FBB054 /* UIActivityIndicatorView+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+Lee.m"; sourceTree = "<group>"; };
+		9B9D93F7204E48E500FBB054 /* UIBezierPath+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Lee.h"; sourceTree = "<group>"; };
+		9B9D93F8204E48E500FBB054 /* UIBezierPath+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Lee.m"; sourceTree = "<group>"; };
+		9B9D93FA204E4F2600FBB054 /* UIButton+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Lee.h"; sourceTree = "<group>"; };
+		9B9D93FB204E4F2600FBB054 /* UIButton+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Lee.m"; sourceTree = "<group>"; };
+		9B9D93FD204E599800FBB054 /* UIColor+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Lee.h"; sourceTree = "<group>"; };
+		9B9D93FE204E599800FBB054 /* UIColor+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Lee.m"; sourceTree = "<group>"; };
+		9B9D9400204E608A00FBB054 /* UIControl+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Lee.h"; sourceTree = "<group>"; };
+		9B9D9401204E608A00FBB054 /* UIControl+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Lee.m"; sourceTree = "<group>"; };
+		9B9D9403204E745A00FBB054 /* UIImage+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Lee.h"; sourceTree = "<group>"; };
+		9B9D9404204E745A00FBB054 /* UIImage+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Lee.m"; sourceTree = "<group>"; };
+		9B9D9408204FC9E900FBB054 /* UIImageView+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Lee.h"; sourceTree = "<group>"; };
+		9B9D9409204FC9E900FBB054 /* UIImageView+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Lee.m"; sourceTree = "<group>"; };
+		9B9D940B204FCDEB00FBB054 /* UILabel+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Lee.h"; sourceTree = "<group>"; };
+		9B9D940C204FCDEB00FBB054 /* UILabel+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Lee.m"; sourceTree = "<group>"; };
+		9B9D940E204FD58B00FBB054 /* UIScrollView+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Lee.h"; sourceTree = "<group>"; };
+		9B9D940F204FD58B00FBB054 /* UIScrollView+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Lee.m"; sourceTree = "<group>"; };
+		9B9D9411204FD95500FBB054 /* UITabBar+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Lee.h"; sourceTree = "<group>"; };
+		9B9D9412204FD95500FBB054 /* UITabBar+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Lee.m"; sourceTree = "<group>"; };
+		9B9D9414204FDB6900FBB054 /* UITabBarItem+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Lee.h"; sourceTree = "<group>"; };
+		9B9D9415204FDB6900FBB054 /* UITabBarItem+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Lee.m"; sourceTree = "<group>"; };
+		9B9D9417204FE70900FBB054 /* UITextField+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Lee.h"; sourceTree = "<group>"; };
+		9B9D9418204FE70900FBB054 /* UITextField+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Lee.m"; sourceTree = "<group>"; };
+		9B9D941A204FE81F00FBB054 /* UITextView+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Lee.h"; sourceTree = "<group>"; };
+		9B9D941B204FE81F00FBB054 /* UITextView+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Lee.m"; sourceTree = "<group>"; };
+		9B9D941E205102C800FBB054 /* UIView+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Lee.h"; sourceTree = "<group>"; };
+		9B9D941F205102C800FBB054 /* UIView+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Lee.m"; sourceTree = "<group>"; };
+		9B9D9421205114C200FBB054 /* UIViewController+Lee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Lee.h"; sourceTree = "<group>"; };
+		9B9D9422205114C200FBB054 /* UIViewController+Lee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Lee.m"; sourceTree = "<group>"; };
+		9B9D9425205128AD00FBB054 /* LeeCollectionViewPageLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeCollectionViewPageLayout.h; sourceTree = "<group>"; };
+		9B9D9426205128AD00FBB054 /* LeeCollectionViewPageLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeCollectionViewPageLayout.m; sourceTree = "<group>"; };
+		9B9D942C2052714B00FBB054 /* LeeUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeUILabel.h; sourceTree = "<group>"; };
+		9B9D942D2052714B00FBB054 /* LeeUILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeUILabel.m; sourceTree = "<group>"; };
+		9BA8CCB5205A6E8B00968DC3 /* LeeModalPresentationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeModalPresentationViewController.h; sourceTree = "<group>"; };
+		9BA8CCB6205A6E8B00968DC3 /* LeeModalPresentationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeModalPresentationViewController.m; sourceTree = "<group>"; };
+		9BB4672B203C438500F39BBC /* TagConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagConfig.h; sourceTree = "<group>"; };
+		9BB4672C203C438500F39BBC /* TagConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagConfig.m; sourceTree = "<group>"; };
+		9BB4672F203C56F600F39BBC /* UIImage+corner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+corner.h"; sourceTree = "<group>"; };
+		9BB46730203C56F600F39BBC /* UIImage+corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+corner.m"; sourceTree = "<group>"; };
+		9BB467322043BE3300F39BBC /* UIView+corner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+corner.h"; sourceTree = "<group>"; };
+		9BB467332043BE3300F39BBC /* UIView+corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+corner.m"; sourceTree = "<group>"; };
 		9BEEC3991FE35DA30016D5DD /* LeeCustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeCustomNavigationBar.h; sourceTree = "<group>"; };
 		9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeCustomNavigationBar.m; sourceTree = "<group>"; };
 		9BFC7BB61FE2265300C53E54 /* LeeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +276,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0522452059154A002879FC /* LeePopupView */ = {
+			isa = PBXGroup;
+			children = (
+				9B052246205915C1002879FC /* LeePopupContainerView.h */,
+				9B052247205915C1002879FC /* LeePopupContainerView.m */,
+				9B052249205915DB002879FC /* LeePopupMenuView.h */,
+				9B05224A205915DB002879FC /* LeePopupMenuView.m */,
+			);
+			path = LeePopupView;
+			sourceTree = "<group>";
+		};
+		9B07E51B205B95B800EC614C /* LeeAlert */ = {
+			isa = PBXGroup;
+			children = (
+				9B07E51C205B964A00EC614C /* LeeAlertViewController.h */,
+				9B07E51D205B964A00EC614C /* LeeAlertViewController.m */,
+			);
+			path = LeeAlert;
+			sourceTree = "<group>";
+		};
+		9B1CE52E205669590025A143 /* LeeToastView */ = {
+			isa = PBXGroup;
+			children = (
+				9B05223D2057BEBB002879FC /* LeeToastResource.bundle */,
+				9B0522062057AFFF002879FC /* LeeTips.h */,
+				9B0522072057AFFF002879FC /* LeeTips.m */,
+				9B1CE52F205669950025A143 /* LeeToastAnimator.h */,
+				9B1CE530205669950025A143 /* LeeToastAnimator.m */,
+				9B1CE532205669B90025A143 /* LeeToastBackgroundView.h */,
+				9B1CE533205669B90025A143 /* LeeToastBackgroundView.m */,
+				9B1CE535205669D20025A143 /* LeeToastContentView.h */,
+				9B1CE536205669D20025A143 /* LeeToastContentView.m */,
+				9B1CE538205669F20025A143 /* LeeToastView.h */,
+				9B1CE539205669F20025A143 /* LeeToastView.m */,
+			);
+			path = LeeToastView;
+			sourceTree = "<group>";
+		};
 		9B39B8D2201C55D0009156BC /* ModalView */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,11 +364,132 @@
 			path = BannerScroll;
 			sourceTree = "<group>";
 		};
+		9B9D93E6204E39C300FBB054 /* UIKitCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D93EA204E3A4000FBB054 /* CALayer+Lee.h */,
+				9B9D93EB204E3A4000FBB054 /* CALayer+Lee.m */,
+				9B9D93F4204E484C00FBB054 /* UIActivityIndicatorView+Lee.h */,
+				9B9D93F5204E484C00FBB054 /* UIActivityIndicatorView+Lee.m */,
+				9B9D93F7204E48E500FBB054 /* UIBezierPath+Lee.h */,
+				9B9D93F8204E48E500FBB054 /* UIBezierPath+Lee.m */,
+				9B9D93FA204E4F2600FBB054 /* UIButton+Lee.h */,
+				9B9D93FB204E4F2600FBB054 /* UIButton+Lee.m */,
+				9B9D93FD204E599800FBB054 /* UIColor+Lee.h */,
+				9B9D93FE204E599800FBB054 /* UIColor+Lee.m */,
+				9B9D9400204E608A00FBB054 /* UIControl+Lee.h */,
+				9B9D9401204E608A00FBB054 /* UIControl+Lee.m */,
+				9B9D9403204E745A00FBB054 /* UIImage+Lee.h */,
+				9B9D9404204E745A00FBB054 /* UIImage+Lee.m */,
+				9B9D9408204FC9E900FBB054 /* UIImageView+Lee.h */,
+				9B9D9409204FC9E900FBB054 /* UIImageView+Lee.m */,
+				9B9D940B204FCDEB00FBB054 /* UILabel+Lee.h */,
+				9B9D940C204FCDEB00FBB054 /* UILabel+Lee.m */,
+				9B9D940E204FD58B00FBB054 /* UIScrollView+Lee.h */,
+				9B9D940F204FD58B00FBB054 /* UIScrollView+Lee.m */,
+				9B9D9411204FD95500FBB054 /* UITabBar+Lee.h */,
+				9B9D9412204FD95500FBB054 /* UITabBar+Lee.m */,
+				9B9D9414204FDB6900FBB054 /* UITabBarItem+Lee.h */,
+				9B9D9415204FDB6900FBB054 /* UITabBarItem+Lee.m */,
+				9B9D9417204FE70900FBB054 /* UITextField+Lee.h */,
+				9B9D9418204FE70900FBB054 /* UITextField+Lee.m */,
+				9B9D941A204FE81F00FBB054 /* UITextView+Lee.h */,
+				9B9D941B204FE81F00FBB054 /* UITextView+Lee.m */,
+				9B9D941E205102C800FBB054 /* UIView+Lee.h */,
+				9B9D941F205102C800FBB054 /* UIView+Lee.m */,
+				9B9D9421205114C200FBB054 /* UIViewController+Lee.h */,
+				9B9D9422205114C200FBB054 /* UIViewController+Lee.m */,
+			);
+			path = UIKitCategory;
+			sourceTree = "<group>";
+		};
+		9B9D93ED204E414C00FBB054 /* FoundationCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D93EE204E416E00FBB054 /* NSAttributedString+Lee.h */,
+				9B9D93EF204E416E00FBB054 /* NSAttributedString+Lee.m */,
+				9B9D93F1204E468800FBB054 /* NSString+Lee.h */,
+				9B9D93F2204E468800FBB054 /* NSString+Lee.m */,
+			);
+			path = FoundationCategory;
+			sourceTree = "<group>";
+		};
+		9B9D94242051285B00FBB054 /* CustomSystemUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9B60CDB3205E53B700205988 /* UIImageEffects.h */,
+				9B60CDB2205E53B700205988 /* UIImageEffects.m */,
+				9B9D9425205128AD00FBB054 /* LeeCollectionViewPageLayout.h */,
+				9B9D9426205128AD00FBB054 /* LeeCollectionViewPageLayout.m */,
+				9B9D942C2052714B00FBB054 /* LeeUILabel.h */,
+				9B9D942D2052714B00FBB054 /* LeeUILabel.m */,
+				9B1CE511205282140025A143 /* LeeUITextField.h */,
+				9B1CE512205282140025A143 /* LeeUITextField.m */,
+				9B1CE528205380AF0025A143 /* LeeGridView.h */,
+				9B1CE529205380AF0025A143 /* LeeGridView.m */,
+				9B1CE52B205620360025A143 /* LeeEmptyView.h */,
+				9B1CE52C205620360025A143 /* LeeEmptyView.m */,
+				9B05220320576F76002879FC /* LeeKeyboardManager.h */,
+				9B05220420576F76002879FC /* LeeKeyboardManager.m */,
+				9B05223F2057C549002879FC /* LeeMarqueeLabel.h */,
+				9B0522402057C549002879FC /* LeeMarqueeLabel.m */,
+				9B0522422058C388002879FC /* LeeButton.h */,
+				9B0522432058C388002879FC /* LeeButton.m */,
+				9B60CDAF205E51B000205988 /* LeeVisualEffectView.h */,
+				9B60CDB0205E51B000205988 /* LeeVisualEffectView.m */,
+				9B60CDB5205E548400205988 /* LeeFloatLayout.h */,
+				9B60CDB6205E548400205988 /* LeeFloatLayout.m */,
+			);
+			path = CustomSystemUIKit;
+			sourceTree = "<group>";
+		};
+		9BA8CCB4205A6E0D00968DC3 /* LeeModalPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				9BA8CCB5205A6E8B00968DC3 /* LeeModalPresentationViewController.h */,
+				9BA8CCB6205A6E8B00968DC3 /* LeeModalPresentationViewController.m */,
+			);
+			path = LeeModalPresentation;
+			sourceTree = "<group>";
+		};
+		9BB4672A203C432E00F39BBC /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4672B203C438500F39BBC /* TagConfig.h */,
+				9BB4672C203C438500F39BBC /* TagConfig.m */,
+				9B9A7C8F20455C71000EAC50 /* TagView.h */,
+				9B9A7C9020455C71000EAC50 /* TagView.m */,
+				9BB4672F203C56F600F39BBC /* UIImage+corner.h */,
+				9BB46730203C56F600F39BBC /* UIImage+corner.m */,
+				9BB467322043BE3300F39BBC /* UIView+corner.h */,
+				9BB467332043BE3300F39BBC /* UIView+corner.m */,
+				9B9A7C882044FF12000EAC50 /* ImageClipedManager.h */,
+				9B9A7C892044FF12000EAC50 /* ImageClipedManager.m */,
+				9B9A7C8B20454F5A000EAC50 /* UIButton+imageCliped.h */,
+				9B9A7C8C20454F5A000EAC50 /* UIButton+imageCliped.m */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+		9BB4672E203C4ADC00F39BBC /* CustomSegment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomSegment;
+			sourceTree = "<group>";
+		};
 		9BEEC3951FE35CE80016D5DD /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
 				9BEEC3991FE35DA30016D5DD /* LeeCustomNavigationBar.h */,
 				9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */,
+				9B9D93DC204D000800FBB054 /* UINavigationBar+Transition.h */,
+				9B9D93DD204D000800FBB054 /* UINavigationBar+Transition.m */,
+				9B9D93DF204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.h */,
+				9B9D93E0204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.m */,
+				9B9D93E2204D434B00FBB054 /* LeeNavigationControllerDelegate.h */,
+				9B9D93E3204D47A200FBB054 /* LeeNavigationController.h */,
+				9B9D93E4204D47A200FBB054 /* LeeNavigationController.m */,
 			);
 			path = NavigationBar;
 			sourceTree = "<group>";
@@ -210,6 +513,15 @@
 		9BFC7BB81FE2265300C53E54 /* LeeKit */ = {
 			isa = PBXGroup;
 			children = (
+				9B07E51B205B95B800EC614C /* LeeAlert */,
+				9BA8CCB4205A6E0D00968DC3 /* LeeModalPresentation */,
+				9B0522452059154A002879FC /* LeePopupView */,
+				9B1CE52E205669590025A143 /* LeeToastView */,
+				9B9D94242051285B00FBB054 /* CustomSystemUIKit */,
+				9B9D93ED204E414C00FBB054 /* FoundationCategory */,
+				9B9D93E6204E39C300FBB054 /* UIKitCategory */,
+				9BB4672E203C4ADC00F39BBC /* CustomSegment */,
+				9BB4672A203C432E00F39BBC /* TagView */,
 				9B39B8D2201C55D0009156BC /* ModalView */,
 				9B7B03EE20159695001CDAEB /* BannerScroll */,
 				9B4B6F631FFC83D60032C025 /* ORMDB */,
@@ -382,6 +694,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B05223E2057BEBC002879FC /* LeeToastResource.bundle in Resources */,
 				9BFC7BC61FE2265300C53E54 /* LaunchScreen.storyboard in Resources */,
 				9BFC7BC31FE2265300C53E54 /* Assets.xcassets in Resources */,
 				9BFC7BC11FE2265300C53E54 /* Main.storyboard in Resources */,
@@ -395,35 +708,82 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B07E51E205B964A00EC614C /* LeeAlertViewController.m in Sources */,
+				9B0522442058C388002879FC /* LeeButton.m in Sources */,
+				9B05220520576F76002879FC /* LeeKeyboardManager.m in Sources */,
 				9BFC7C151FE2272100C53E54 /* LeeNetworkHelper.m in Sources */,
+				9B9A7C8D20454F5A000EAC50 /* UIButton+imageCliped.m in Sources */,
+				9B9D9423205114C200FBB054 /* UIViewController+Lee.m in Sources */,
 				9BFC7C0A1FE226E700C53E54 /* UIProgressView+AFNetworking.m in Sources */,
+				9B1CE52A205380AF0025A143 /* LeeGridView.m in Sources */,
+				9B05224B205915DB002879FC /* LeePopupMenuView.m in Sources */,
 				9BFC7C0D1FE226F000C53E54 /* UIImageView+AFNetworking.m in Sources */,
+				9B1CE531205669950025A143 /* LeeToastAnimator.m in Sources */,
+				9B9D9416204FDB6900FBB054 /* UITabBarItem+Lee.m in Sources */,
 				9BFC7C0E1FE226F400C53E54 /* UIButton+AFNetworking.m in Sources */,
 				9BFC7BDC1FE226A900C53E54 /* YYKVStorage.m in Sources */,
+				9B9D93EC204E3A4000FBB054 /* CALayer+Lee.m in Sources */,
+				9B9D942E2052714B00FBB054 /* LeeUILabel.m in Sources */,
 				9BFC7C0B1FE226E900C53E54 /* UIRefreshControl+AFNetworking.m in Sources */,
 				9BFC7BBE1FE2265300C53E54 /* ViewController.m in Sources */,
 				9BFC7C0C1FE226EC00C53E54 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				9BFC7BDA1FE226A300C53E54 /* YYDiskCache.m in Sources */,
+				9B9D93FC204E4F2600FBB054 /* UIButton+Lee.m in Sources */,
+				9BB4672D203C438500F39BBC /* TagConfig.m in Sources */,
+				9B9A7C9120455C71000EAC50 /* TagView.m in Sources */,
 				9B4B6F681FFC92010032C025 /* Lee_SQLBuilder.m in Sources */,
 				9BFC7C0F1FE226F600C53E54 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				9BFC7C051FE226D400C53E54 /* AFHTTPSessionManager.m in Sources */,
+				9B9D93E5204D47A200FBB054 /* LeeNavigationController.m in Sources */,
 				9BEEC39B1FE35DA30016D5DD /* LeeCustomNavigationBar.m in Sources */,
+				9B9D93F3204E468800FBB054 /* NSString+Lee.m in Sources */,
+				9BB467342043BE3300F39BBC /* UIView+corner.m in Sources */,
+				9B9D9410204FD58B00FBB054 /* UIScrollView+Lee.m in Sources */,
+				9B1CE534205669B90025A143 /* LeeToastBackgroundView.m in Sources */,
 				9BFC7BC91FE2265300C53E54 /* main.m in Sources */,
+				9B9D93FF204E599800FBB054 /* UIColor+Lee.m in Sources */,
 				9BFC7C061FE226D700C53E54 /* AFURLSessionManager.m in Sources */,
 				9BFC7C111FE226FD00C53E54 /* AFAutoPurgingImageCache.m in Sources */,
+				9B1CE537205669D20025A143 /* LeeToastContentView.m in Sources */,
+				9B60CDB1205E51B000205988 /* LeeVisualEffectView.m in Sources */,
+				9B9D9413204FD95500FBB054 /* UITabBar+Lee.m in Sources */,
+				9B9D93F6204E484C00FBB054 /* UIActivityIndicatorView+Lee.m in Sources */,
+				9BA8CCB7205A6E8B00968DC3 /* LeeModalPresentationViewController.m in Sources */,
 				9BFC7C101FE226F900C53E54 /* UIWebView+AFNetworking.m in Sources */,
+				9BB46731203C56F600F39BBC /* UIImage+corner.m in Sources */,
+				9B0522412057C549002879FC /* LeeMarqueeLabel.m in Sources */,
+				9B60CDB4205E53B800205988 /* UIImageEffects.m in Sources */,
+				9B0522082057AFFF002879FC /* LeeTips.m in Sources */,
+				9B1CE53A205669F20025A143 /* LeeToastView.m in Sources */,
+				9B9D9427205128AD00FBB054 /* LeeCollectionViewPageLayout.m in Sources */,
+				9B9D940A204FC9E900FBB054 /* UIImageView+Lee.m in Sources */,
 				9BFC7BBB1FE2265300C53E54 /* AppDelegate.m in Sources */,
+				9B9D93F0204E416E00FBB054 /* NSAttributedString+Lee.m in Sources */,
 				9BFC7C181FE2273A00C53E54 /* LeeNetworkCache.m in Sources */,
 				9BFC7C071FE226D900C53E54 /* AFURLRequestSerialization.m in Sources */,
+				9B052248205915C1002879FC /* LeePopupContainerView.m in Sources */,
 				9B4B6F6B1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m in Sources */,
+				9B1CE52D205620360025A143 /* LeeEmptyView.m in Sources */,
+				9B9D9402204E608B00FBB054 /* UIControl+Lee.m in Sources */,
 				9BFC7BDD1FE226AD00C53E54 /* YYMemoryCache.m in Sources */,
 				9B4B6F6E1FFCB0360032C025 /* Lee_SQLInsertBuilder.m in Sources */,
 				9B7B03F120159704001CDAEB /* InfiniteBanner.m in Sources */,
 				9B39B8D5201C5620009156BC /* ModalView.m in Sources */,
 				9B7B03F42015986E001CDAEB /* InfiniteConfiguration.m in Sources */,
+				9B9D93F9204E48E500FBB054 /* UIBezierPath+Lee.m in Sources */,
+				9B9D93DE204D000800FBB054 /* UINavigationBar+Transition.m in Sources */,
+				9B9D9420205102C800FBB054 /* UIView+Lee.m in Sources */,
+				9B9D93E1204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.m in Sources */,
+				9B9D941C204FE81F00FBB054 /* UITextView+Lee.m in Sources */,
+				9B9D9405204E745A00FBB054 /* UIImage+Lee.m in Sources */,
 				9B39B8D920201CA7009156BC /* RedView.m in Sources */,
+				9B60CDB7205E548400205988 /* LeeFloatLayout.m in Sources */,
+				9B9A7C8A2044FF12000EAC50 /* ImageClipedManager.m in Sources */,
+				9B1CE513205282140025A143 /* LeeUITextField.m in Sources */,
 				9BFC7C091FE226DF00C53E54 /* AFSecurityPolicy.m in Sources */,
+				9B9D940D204FCDEB00FBB054 /* UILabel+Lee.m in Sources */,
 				9BFC7C041FE226D100C53E54 /* AFURLResponseSerialization.m in Sources */,
+				9B9D9419204FE70900FBB054 /* UITextField+Lee.m in Sources */,
 				9BFC7C081FE226DC00C53E54 /* AFNetworkReachabilityManager.m in Sources */,
 				9BFC7BDB1FE226A600C53E54 /* YYCache.m in Sources */,
 				9BFC7C121FE2270200C53E54 /* AFImageDownloader.m in Sources */,
@@ -500,7 +860,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -549,7 +909,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -561,6 +921,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3X9BDWQG;
 				INFOPLIST_FILE = LeeKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LeeKit;
@@ -574,6 +935,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3X9BDWQG;
 				INFOPLIST_FILE = LeeKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LeeKit;

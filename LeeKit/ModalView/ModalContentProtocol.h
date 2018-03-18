@@ -11,5 +11,5 @@
 //定义行为，可能会使用
 @protocol ModalContentProtocol <NSObject>
 
-
+-(BOOL)isFullScreen;
 @end
