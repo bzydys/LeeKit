@@ -10,7 +10,7 @@
 
 @class LeeModalPresentationViewController;
 @class LeeButton;
-@class LeeTextField;
+@class LeeUITextField;
 @class LeeAlertViewController;
 
 
@@ -192,7 +192,7 @@ typedef NS_ENUM(NSInteger, LeeAlertControllerStyle) {
 - (void)addCancelAction;
 
 /// 增加一个输入框
-- (void)addTextFieldWithConfigurationHandler:(void (^)(LeeTextField *textField))configurationHandler;
+- (void)addTextFieldWithConfigurationHandler:(void (^)(LeeUITextField *textField))configurationHandler;
 
 /// 增加一个自定义的view作为`leeAlertController`的customView
 - (void)addCustomView:(UIView *)view;
@@ -207,7 +207,7 @@ typedef NS_ENUM(NSInteger, LeeAlertControllerStyle) {
 @property(nonatomic, copy, readonly) NSArray <LeeAlertAction *> *actions;
 
 /// 当前所有通过`addTextFieldWithConfigurationHandler:`接口添加的输入框
-@property(nonatomic, copy, readonly) NSArray <LeeTextField *> *textFields;
+@property(nonatomic, copy, readonly) NSArray <LeeUITextField *> *textFields;
 
 /// 设置自定义view。通过`addCustomView:`方法添加一个自定义的view，`leeAlertController`会在布局的时候去掉用这个view的`sizeThatFits:`方法来获取size，至于x和y坐标则由控件自己控制。
 @property(nonatomic, strong, readonly) UIView *customView;

@@ -16,5 +16,18 @@ UIKIT_EXTERN const CGSize LeeFloatLayoutAutomaticalMaximumItemSize;
  *  支持通过 `contentMode` 属性修改子 View 的对齐方式，目前仅支持 `UIViewContentModeLeft` 和 `UIViewContentModeRight`，默认为 `UIViewContentModeLeft`。
  */
 @interface LeeFloatLayout : UIView
+///布局容器内边距
+@property(nonatomic, assign) UIEdgeInsets padding;
+///item最小尺寸，默认为CGSizeZero
+@property(nonatomic, assign) CGSize minimumItemSize;
+
+///item最大尺寸
+@property(nonatomic, assign) CGSize maximunItemSize;
+/**
+ *  item 之间的间距，默认为 UIEdgeInsetsZero。
+ *
+ *  @warning 上、下、左、右四个边缘的 item 布局时不会考虑 itemMargins.left/bottom/left/right。
+ */
+@property(nonatomic, assign) UIEdgeInsets itemMargin;
 
 @end

@@ -22,13 +22,16 @@
 #import "LeeButton.h"
 #import "LeeModalPresentationViewController.h"
 #import "LeeAlertViewController.h"
-static int count;
+#import "LeeFloatLayout.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import "SecondViewController.h"
 @interface ViewController ()<CAAnimationDelegate>
 {
     ModalView *_modal;
     UILabel *_lbl;
     NSTimer *_timer;
     UIView *_conta;
+    LeeFloatLayout *_lay;
 }
 
 @end
@@ -81,19 +84,19 @@ static int count;
 //    testView.layer.mask = layer;
     // Do any additional setup after loading the view, typically from a nib.
     
-    LeeGridView *grid = [[LeeGridView alloc] initWithColumn:3 rowHeight:50];
-    grid.shouldSeparatorDashed = YES;
-    grid.separatorWidth = 1;
-    grid.separatorColor = [UIColor redColor];
-    grid.frame = CGRectMake(0, 64, self.view.bounds.size.width, 200);
-    [self.view addSubview:grid];
-    
-    for (NSUInteger i = 0; i < 20; i++) {
-        UILabel *lbl = [[UILabel alloc] init];
-        lbl.font = [UIFont systemFontOfSize:13];
-        lbl.backgroundColor = [UIColor lee_randomColor];
-        [grid addSubview:lbl];
-    }
+//    LeeGridView *grid = [[LeeGridView alloc] initWithColumn:3 rowHeight:50];
+//    grid.shouldSeparatorDashed = YES;
+//    grid.separatorWidth = 1;
+//    grid.separatorColor = [UIColor redColor];
+//    grid.frame = CGRectMake(0, 64, self.view.bounds.size.width, 200);
+//    [self.view addSubview:grid];
+//    
+//    for (NSUInteger i = 0; i < 20; i++) {
+//        UILabel *lbl = [[UILabel alloc] init];
+//        lbl.font = [UIFont systemFontOfSize:13];
+//        lbl.backgroundColor = [UIColor lee_randomColor];
+//        [grid addSubview:lbl];
+//    }
     
 //    LeeButton *btn = [[LeeButton alloc] initWithFrame:CGRectMake(9, 300, 340, 50)];
 //    [self.view addSubview:btn];
@@ -117,23 +120,55 @@ static int count;
 //    _lbl.clipsToBounds = YES;
 //
     
-    LeeButton *btn = [[LeeButton alloc] init];
-    btn.backgroundColor = [UIColor lightGrayColor];
-    [btn setTitle:@"hehe" forState:UIControlStateNormal];
-    btn.frame = CGRectMake(20, 400, 50, 30);
-    [self.view addSubview:btn];
-//    btn.adjustsImageWhenHighlighted = YES;
-    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+//    LeeButton *btn = [[LeeButton alloc] init];
+//    btn.backgroundColor = [UIColor lightGrayColor];
+//    [btn setTitle:@"hehe" forState:UIControlStateNormal];
+//    btn.frame = CGRectMake(20, 400, 50, 30);
+//    [self.view addSubview:btn];
+////    btn.adjustsImageWhenHighlighted = YES;
+//    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+//
+//    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 460, 200, 30)];
+//    tf.borderStyle = UITextBorderStyleLine;
+//    [self.view addSubview:tf];
     
-    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 460, 200, 30)];
-    tf.borderStyle = UITextBorderStyleLine;
-    [self.view addSubview:tf];
+    LeeFloatLayout *lay = [[LeeFloatLayout alloc] initWithFrame:CGRectMake(0, 300, 375, 100)];
+    lay.backgroundColor = [UIColor redColor];
+    lay.itemMargin = UIEdgeInsetsMake(0, 2.5, 5, 2.5);
+    lay.contentMode = UIViewContentModeRight;
+    lay.padding = UIEdgeInsetsMake(5, 5, 5, 5);
+    [self.view addSubview:lay];
+    _lay = lay;
+    
+    NSArray<NSString *> *titleArray = @[@"hehe", @"hdhsahdhsad",@"dsdada",@"i love"];
+    for (NSUInteger i = 0; i < titleArray.count; i++) {
+        LeeButton *btn = [[LeeButton alloc] init];
+        [btn setTitle:titleArray[i] forState:UIControlStateNormal];
+        btn.backgroundColor = [UIColor lightGrayColor];
+        btn.contentEdgeInsets = UIEdgeInsetsMake(6, 20, 6, 20);
+        [lay addSubview:btn];
+    }
+    
+    [lay sizeToFit];
+    
 
     
 }
 
+- (BOOL)shouldAutorotate{
+    return YES;
+}
+
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 -(void)click{
     NSLog(@"----------");
+}
+
+-(void)viewWillLayoutSubviews{
+    NSLog(@"------");
 }
 
 
@@ -155,11 +190,14 @@ static int count;
 //    vc.contentView.backgroundColor = [UIColor redColor];
 //    vc.animationStyle = LeeModalPresentationAnimationStyleTopInBottomOut;
 //    [vc showWithAnimated:YES completion:nil];
-    LeeAlertViewController *alert = [LeeAlertViewController alertControllerWithTitle:@"hehe" message:@"ewewqe" preferredStyle:LeeAlertControllerStyleAlert];
-    [alert addAction:[LeeAlertAction actionWithTitle:@"comfirm" style:LeeAlertActionStyleDefault handler:^(LeeAlertAction *action) {
-        [alert hideWithAnimated:YES];
-    }]];
-    [alert showWithAnimated:YES];
+//    LeeAlertViewController *alert = [LeeAlertViewController alertControllerWithTitle:@"hehe" message:@"ewewqe" preferredStyle:LeeAlertControllerStyleAlert];
+//    [alert addAction:[LeeAlertAction actionWithTitle:@"comfirm" style:LeeAlertActionStyleDefault handler:^(LeeAlertAction *action) {
+//        [alert hideWithAnimated:YES];
+//    }]];
+//    [alert showWithAnimated:YES];
+//    [self showEmptyViewWithText:@"wewe" detailText:@"dsadsadsadsad" buttonTitle:@"hehe" buttonAction:nil];
+    [self.navigationController pushViewController:[SecondViewController new] animated:YES];
+    
 
 }
 

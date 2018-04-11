@@ -11,7 +11,7 @@
 @class LeeToastView;
 
 /**
- * `QMUIToastAnimatorDelegate`是所有`QMUIToastAnimator`或者其子类必须遵循的协议，是整个动画过程实现的地方。
+ * `LeeToastAnimatorDelegate`是所有`LeeToastAnimator`或者其子类必须遵循的协议，是整个动画过程实现的地方。
  */
 @protocol LeeToastAnimatorDelegate<NSObject>
 

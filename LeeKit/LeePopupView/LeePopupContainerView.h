@@ -12,7 +12,7 @@
  * 带箭头的小tips浮层，自带 imageView 和 textLabel，可展示简单的图文信息。
  * LeePopupContainerView 支持以两种方式显示在界面上：
  * 1. 添加到某个 UIView 上（适合于 viewController 切换时浮层跟着一起切换的场景），这种场景只能手动隐藏浮层。
- * 2. 在 QMUIPopupContainerView 自带的 UIWindow 里显示（适合于用完就消失的场景，不要涉及界面切换），这种场景支持点击空白地方自动隐藏浮层。
+ * 2. 在 LeePopupContainerView 自带的 UIWindow 里显示（适合于用完就消失的场景，不要涉及界面切换），这种场景支持点击空白地方自动隐藏浮层。
  *
  * 使用步骤：
  * 1. 调用 init 方法初始化。

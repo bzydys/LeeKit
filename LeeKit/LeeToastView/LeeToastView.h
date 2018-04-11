@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, LeeToastViewPosition) {
 /**
  * `LeeToastView`是一个用来显示toast的控件，其主要结构包括：`backgroundView`、`contentView`，这两个view都是通过外部赋值获取，默认使用`LeeToastBackgroundView`和`LeeToastContentView`。
  *
- * 拓展性：`LeeToastBackgroundView`和`LeeToastContentView`是QMUI提供的默认的view，这两个view都可以通过appearance来修改样式，如果这两个view满足不了需求，那么也可以通过新建自定义的view来代替这两个view。另外，提供了默认的toastAnimator来实现ToastView的显示和隐藏动画，如果需要重新定义一套动画，可以继承`LeeToastAnimator`并且实现`LeeToastViewAnimatorDelegate`中的协议就可以自定义自己的一套动画。
+ * 拓展性：`LeeToastBackgroundView`和`LeeToastContentView`是提供的默认的view，这两个view都可以通过appearance来修改样式，如果这两个view满足不了需求，那么也可以通过新建自定义的view来代替这两个view。另外，提供了默认的toastAnimator来实现ToastView的显示和隐藏动画，如果需要重新定义一套动画，可以继承`LeeToastAnimator`并且实现`LeeToastViewAnimatorDelegate`中的协议就可以自定义自己的一套动画。
  *
  * 建议使用`LeeToastView`的时候，再封装一层，具体可以参考`LeeTips`这个类。
  *

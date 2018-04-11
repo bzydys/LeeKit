@@ -921,7 +921,7 @@ static LeeAlertViewController *alertControllerAppearance;
 
 - (void)addAction:(LeeAlertAction *)action {
     if (action.style == LeeAlertActionStyleCancel && self.cancelAction) {
-        [NSException raise:@"QMUIAlertController使用错误" format:@"同一个alertController不可以同时添加两个cancel按钮"];
+        [NSException raise:@"LeeAlertController使用错误" format:@"同一个alertController不可以同时添加两个cancel按钮"];
     }
     if (action.style == LeeAlertActionStyleCancel) {
         self.cancelAction = action;

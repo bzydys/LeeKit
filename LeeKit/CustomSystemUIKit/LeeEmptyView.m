@@ -116,7 +116,7 @@ static inline UIColor * UIColorMake(NSInteger r,NSInteger g,NSInteger b){
     
     if (!self.actionButton.hidden) {
         [self.actionButton sizeToFit];
-        self.actionButton.frame = CGRectMake((CGRectGetWidth(self.actionButton.bounds) - CGRectGetWidth(self.actionButton.bounds))/2.0 + self.actionButtonInsets.left - self.actionButtonInsets.right, originY + self.actionButtonInsets.top, CGRectGetWidth(self.actionButton.bounds), CGRectGetHeight(self.actionButton.bounds));
+        self.actionButton.frame = CGRectMake((CGRectGetWidth(self.contentView.bounds) - CGRectGetWidth(self.actionButton.bounds))/2.0 + self.actionButtonInsets.left - self.actionButtonInsets.right, originY + self.actionButtonInsets.top, CGRectGetWidth(self.actionButton.bounds), CGRectGetHeight(self.actionButton.bounds));
         originY = CGRectGetMaxY(self.actionButton.frame) + self.actionButtonInsets.bottom;
     }
     

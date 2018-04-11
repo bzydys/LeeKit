@@ -275,7 +275,7 @@ typedef NS_ENUM(NSUInteger, LeeModalPresentationAnimationStyle) {
 @interface UIViewController (LeeModalPresentationViewController)
 
 /**
- *  获取弹出当前 vieController 的 QMUIModalPresentationViewController
+ *  获取弹出当前 vieController 的 LeeModalPresentationViewController
  */
 @property(nonatomic, weak, readonly) LeeModalPresentationViewController *lee_modalPresentationViewController;
 @end

@@ -22,12 +22,12 @@ CGRectSetY(CGRect rect, CGFloat y) {
     return rect;
 }
 
-CG_INLINE CGRect
-CGRectSetXY(CGRect rect, CGFloat x, CGFloat y) {
-    rect.origin.x = x;
-    rect.origin.y = y;
-    return rect;
-}
+//CG_INLINE CGRect
+//CGRectSetXY(CGRect rect, CGFloat x, CGFloat y) {
+//    rect.origin.x = x;
+//    rect.origin.y = y;
+//    return rect;
+//}
 
 CG_INLINE CGRect
 CGRectSetWidth(CGRect rect, CGFloat width) {

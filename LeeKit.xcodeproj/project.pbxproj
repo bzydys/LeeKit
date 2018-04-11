@@ -22,6 +22,7 @@
 		9B1CE534205669B90025A143 /* LeeToastBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE533205669B90025A143 /* LeeToastBackgroundView.m */; };
 		9B1CE537205669D20025A143 /* LeeToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE536205669D20025A143 /* LeeToastContentView.m */; };
 		9B1CE53A205669F20025A143 /* LeeToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CE539205669F20025A143 /* LeeToastView.m */; };
+		9B32D10A20655EB700752B2C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B32D10920655EB700752B2C /* SecondViewController.m */; };
 		9B39B8D5201C5620009156BC /* ModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39B8D4201C5620009156BC /* ModalView.m */; };
 		9B39B8D920201CA7009156BC /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39B8D820201CA7009156BC /* RedView.m */; };
 		9B4B6F681FFC92010032C025 /* Lee_SQLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B6F671FFC92010032C025 /* Lee_SQLBuilder.m */; };
@@ -30,6 +31,7 @@
 		9B60CDB1205E51B000205988 /* LeeVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B60CDB0205E51B000205988 /* LeeVisualEffectView.m */; };
 		9B60CDB4205E53B800205988 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B60CDB2205E53B700205988 /* UIImageEffects.m */; };
 		9B60CDB7205E548400205988 /* LeeFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B60CDB6205E548400205988 /* LeeFloatLayout.m */; };
+		9B740EA9206E2C3500C74876 /* LeeSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B740EA8206E2C3500C74876 /* LeeSegmentView.m */; };
 		9B7B03F120159704001CDAEB /* InfiniteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B03F020159704001CDAEB /* InfiniteBanner.m */; };
 		9B7B03F42015986E001CDAEB /* InfiniteConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B03F32015986E001CDAEB /* InfiniteConfiguration.m */; };
 		9B9A7C8A2044FF12000EAC50 /* ImageClipedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7C892044FF12000EAC50 /* ImageClipedManager.m */; };
@@ -62,6 +64,15 @@
 		9BB4672D203C438500F39BBC /* TagConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4672C203C438500F39BBC /* TagConfig.m */; };
 		9BB46731203C56F600F39BBC /* UIImage+corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46730203C56F600F39BBC /* UIImage+corner.m */; };
 		9BB467342043BE3300F39BBC /* UIView+corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB467332043BE3300F39BBC /* UIView+corner.m */; };
+		9BDC23A8205FAD550042E6D2 /* LeeImagePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23A7205FAD550042E6D2 /* LeeImagePreviewView.m */; };
+		9BDC23AB205FADFB0042E6D2 /* LeeZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23AA205FADFB0042E6D2 /* LeeZoomImageView.m */; };
+		9BDC23AF205FAE630042E6D2 /* LeeAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23AE205FAE630042E6D2 /* LeeAsset.m */; };
+		9BDC23B2205FBA920042E6D2 /* LeeAssetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23B1205FBA920042E6D2 /* LeeAssetsManager.m */; };
+		9BDC23B5205FC8300042E6D2 /* LeeAssetsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23B4205FC8300042E6D2 /* LeeAssetsGroup.m */; };
+		9BDC23B920609A760042E6D2 /* LeeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23B820609A760042E6D2 /* LeeSlider.m */; };
+		9BDC23BC2060A0580042E6D2 /* LeePieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC23BB2060A0580042E6D2 /* LeePieProgressView.m */; };
+		9BDC24012061117A0042E6D2 /* LeeImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC24002061117A0042E6D2 /* LeeImagePreviewViewController.m */; };
+		9BDC241220621E310042E6D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC241120621E310042E6D2 /* BaseViewController.m */; };
 		9BEEC39B1FE35DA30016D5DD /* LeeCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */; };
 		9BFC7BBB1FE2265300C53E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC7BBA1FE2265300C53E54 /* AppDelegate.m */; };
 		9BFC7BBE1FE2265300C53E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC7BBD1FE2265300C53E54 /* ViewController.m */; };
@@ -122,6 +133,8 @@
 		9B1CE536205669D20025A143 /* LeeToastContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeToastContentView.m; sourceTree = "<group>"; };
 		9B1CE538205669F20025A143 /* LeeToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeToastView.h; sourceTree = "<group>"; };
 		9B1CE539205669F20025A143 /* LeeToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeToastView.m; sourceTree = "<group>"; };
+		9B32D10820655EB700752B2C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9B32D10920655EB700752B2C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9B39B8D3201C5620009156BC /* ModalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalView.h; sourceTree = "<group>"; };
 		9B39B8D4201C5620009156BC /* ModalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalView.m; sourceTree = "<group>"; };
 		9B39B8D620200057009156BC /* ModalContentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalContentProtocol.h; sourceTree = "<group>"; };
@@ -139,6 +152,8 @@
 		9B60CDB3205E53B700205988 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
 		9B60CDB5205E548400205988 /* LeeFloatLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeFloatLayout.h; sourceTree = "<group>"; };
 		9B60CDB6205E548400205988 /* LeeFloatLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeFloatLayout.m; sourceTree = "<group>"; };
+		9B740EA7206E2C3500C74876 /* LeeSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeSegmentView.h; sourceTree = "<group>"; };
+		9B740EA8206E2C3500C74876 /* LeeSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeSegmentView.m; sourceTree = "<group>"; };
 		9B7B03EF20159704001CDAEB /* InfiniteBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteBanner.h; sourceTree = "<group>"; };
 		9B7B03F020159704001CDAEB /* InfiniteBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteBanner.m; sourceTree = "<group>"; };
 		9B7B03F22015986E001CDAEB /* InfiniteConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteConfiguration.h; sourceTree = "<group>"; };
@@ -204,6 +219,24 @@
 		9BB46730203C56F600F39BBC /* UIImage+corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+corner.m"; sourceTree = "<group>"; };
 		9BB467322043BE3300F39BBC /* UIView+corner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+corner.h"; sourceTree = "<group>"; };
 		9BB467332043BE3300F39BBC /* UIView+corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+corner.m"; sourceTree = "<group>"; };
+		9BDC23A6205FAD550042E6D2 /* LeeImagePreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeImagePreviewView.h; sourceTree = "<group>"; };
+		9BDC23A7205FAD550042E6D2 /* LeeImagePreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeImagePreviewView.m; sourceTree = "<group>"; };
+		9BDC23A9205FADFB0042E6D2 /* LeeZoomImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeZoomImageView.h; sourceTree = "<group>"; };
+		9BDC23AA205FADFB0042E6D2 /* LeeZoomImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeZoomImageView.m; sourceTree = "<group>"; };
+		9BDC23AD205FAE630042E6D2 /* LeeAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeAsset.h; sourceTree = "<group>"; };
+		9BDC23AE205FAE630042E6D2 /* LeeAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeAsset.m; sourceTree = "<group>"; };
+		9BDC23B0205FBA920042E6D2 /* LeeAssetsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeAssetsManager.h; sourceTree = "<group>"; };
+		9BDC23B1205FBA920042E6D2 /* LeeAssetsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeAssetsManager.m; sourceTree = "<group>"; };
+		9BDC23B3205FC8300042E6D2 /* LeeAssetsGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeAssetsGroup.h; sourceTree = "<group>"; };
+		9BDC23B4205FC8300042E6D2 /* LeeAssetsGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeAssetsGroup.m; sourceTree = "<group>"; };
+		9BDC23B720609A760042E6D2 /* LeeSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeSlider.h; sourceTree = "<group>"; };
+		9BDC23B820609A760042E6D2 /* LeeSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeSlider.m; sourceTree = "<group>"; };
+		9BDC23BA2060A0580042E6D2 /* LeePieProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeePieProgressView.h; sourceTree = "<group>"; };
+		9BDC23BB2060A0580042E6D2 /* LeePieProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeePieProgressView.m; sourceTree = "<group>"; };
+		9BDC23FF2061117A0042E6D2 /* LeeImagePreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeImagePreviewViewController.h; sourceTree = "<group>"; };
+		9BDC24002061117A0042E6D2 /* LeeImagePreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeImagePreviewViewController.m; sourceTree = "<group>"; };
+		9BDC241020621E310042E6D2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9BDC241120621E310042E6D2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		9BEEC3991FE35DA30016D5DD /* LeeCustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeCustomNavigationBar.h; sourceTree = "<group>"; };
 		9BEEC39A1FE35DA30016D5DD /* LeeCustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeCustomNavigationBar.m; sourceTree = "<group>"; };
 		9BFC7BB61FE2265300C53E54 /* LeeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -439,6 +472,16 @@
 				9B60CDB0205E51B000205988 /* LeeVisualEffectView.m */,
 				9B60CDB5205E548400205988 /* LeeFloatLayout.h */,
 				9B60CDB6205E548400205988 /* LeeFloatLayout.m */,
+				9BDC23A6205FAD550042E6D2 /* LeeImagePreviewView.h */,
+				9BDC23A7205FAD550042E6D2 /* LeeImagePreviewView.m */,
+				9BDC23A9205FADFB0042E6D2 /* LeeZoomImageView.h */,
+				9BDC23AA205FADFB0042E6D2 /* LeeZoomImageView.m */,
+				9BDC23B720609A760042E6D2 /* LeeSlider.h */,
+				9BDC23B820609A760042E6D2 /* LeeSlider.m */,
+				9BDC23BA2060A0580042E6D2 /* LeePieProgressView.h */,
+				9BDC23BB2060A0580042E6D2 /* LeePieProgressView.m */,
+				9BDC23FF2061117A0042E6D2 /* LeeImagePreviewViewController.h */,
+				9BDC24002061117A0042E6D2 /* LeeImagePreviewViewController.m */,
 			);
 			path = CustomSystemUIKit;
 			sourceTree = "<group>";
@@ -474,8 +517,32 @@
 		9BB4672E203C4ADC00F39BBC /* CustomSegment */ = {
 			isa = PBXGroup;
 			children = (
+				9B740EA7206E2C3500C74876 /* LeeSegmentView.h */,
+				9B740EA8206E2C3500C74876 /* LeeSegmentView.m */,
 			);
 			path = CustomSegment;
+			sourceTree = "<group>";
+		};
+		9BDC23AC205FAE380042E6D2 /* AssetLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9BDC23AD205FAE630042E6D2 /* LeeAsset.h */,
+				9BDC23AE205FAE630042E6D2 /* LeeAsset.m */,
+				9BDC23B3205FC8300042E6D2 /* LeeAssetsGroup.h */,
+				9BDC23B4205FC8300042E6D2 /* LeeAssetsGroup.m */,
+				9BDC23B0205FBA920042E6D2 /* LeeAssetsManager.h */,
+				9BDC23B1205FBA920042E6D2 /* LeeAssetsManager.m */,
+			);
+			path = AssetLibrary;
+			sourceTree = "<group>";
+		};
+		9BDC240F20621E160042E6D2 /* LeeMainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				9BDC241020621E310042E6D2 /* BaseViewController.h */,
+				9BDC241120621E310042E6D2 /* BaseViewController.m */,
+			);
+			path = LeeMainFrame;
 			sourceTree = "<group>";
 		};
 		9BEEC3951FE35CE80016D5DD /* NavigationBar */ = {
@@ -513,6 +580,8 @@
 		9BFC7BB81FE2265300C53E54 /* LeeKit */ = {
 			isa = PBXGroup;
 			children = (
+				9BDC240F20621E160042E6D2 /* LeeMainFrame */,
+				9BDC23AC205FAE380042E6D2 /* AssetLibrary */,
 				9B07E51B205B95B800EC614C /* LeeAlert */,
 				9BA8CCB4205A6E0D00968DC3 /* LeeModalPresentation */,
 				9B0522452059154A002879FC /* LeePopupView */,
@@ -533,6 +602,8 @@
 				9B39B8D820201CA7009156BC /* RedView.m */,
 				9BFC7BBC1FE2265300C53E54 /* ViewController.h */,
 				9BFC7BBD1FE2265300C53E54 /* ViewController.m */,
+				9B32D10820655EB700752B2C /* SecondViewController.h */,
+				9B32D10920655EB700752B2C /* SecondViewController.m */,
 				9BFC7BBF1FE2265300C53E54 /* Main.storyboard */,
 				9BFC7BC21FE2265300C53E54 /* Assets.xcassets */,
 				9BFC7BC41FE2265300C53E54 /* LaunchScreen.storyboard */,
@@ -714,10 +785,12 @@
 				9BFC7C151FE2272100C53E54 /* LeeNetworkHelper.m in Sources */,
 				9B9A7C8D20454F5A000EAC50 /* UIButton+imageCliped.m in Sources */,
 				9B9D9423205114C200FBB054 /* UIViewController+Lee.m in Sources */,
+				9BDC23A8205FAD550042E6D2 /* LeeImagePreviewView.m in Sources */,
 				9BFC7C0A1FE226E700C53E54 /* UIProgressView+AFNetworking.m in Sources */,
 				9B1CE52A205380AF0025A143 /* LeeGridView.m in Sources */,
 				9B05224B205915DB002879FC /* LeePopupMenuView.m in Sources */,
 				9BFC7C0D1FE226F000C53E54 /* UIImageView+AFNetworking.m in Sources */,
+				9BDC23B920609A760042E6D2 /* LeeSlider.m in Sources */,
 				9B1CE531205669950025A143 /* LeeToastAnimator.m in Sources */,
 				9B9D9416204FDB6900FBB054 /* UITabBarItem+Lee.m in Sources */,
 				9BFC7C0E1FE226F400C53E54 /* UIButton+AFNetworking.m in Sources */,
@@ -737,11 +810,14 @@
 				9B9D93E5204D47A200FBB054 /* LeeNavigationController.m in Sources */,
 				9BEEC39B1FE35DA30016D5DD /* LeeCustomNavigationBar.m in Sources */,
 				9B9D93F3204E468800FBB054 /* NSString+Lee.m in Sources */,
+				9BDC23BC2060A0580042E6D2 /* LeePieProgressView.m in Sources */,
 				9BB467342043BE3300F39BBC /* UIView+corner.m in Sources */,
+				9BDC23AF205FAE630042E6D2 /* LeeAsset.m in Sources */,
 				9B9D9410204FD58B00FBB054 /* UIScrollView+Lee.m in Sources */,
 				9B1CE534205669B90025A143 /* LeeToastBackgroundView.m in Sources */,
 				9BFC7BC91FE2265300C53E54 /* main.m in Sources */,
 				9B9D93FF204E599800FBB054 /* UIColor+Lee.m in Sources */,
+				9BDC24012061117A0042E6D2 /* LeeImagePreviewViewController.m in Sources */,
 				9BFC7C061FE226D700C53E54 /* AFURLSessionManager.m in Sources */,
 				9BFC7C111FE226FD00C53E54 /* AFAutoPurgingImageCache.m in Sources */,
 				9B1CE537205669D20025A143 /* LeeToastContentView.m in Sources */,
@@ -759,10 +835,13 @@
 				9B9D940A204FC9E900FBB054 /* UIImageView+Lee.m in Sources */,
 				9BFC7BBB1FE2265300C53E54 /* AppDelegate.m in Sources */,
 				9B9D93F0204E416E00FBB054 /* NSAttributedString+Lee.m in Sources */,
+				9B32D10A20655EB700752B2C /* SecondViewController.m in Sources */,
 				9BFC7C181FE2273A00C53E54 /* LeeNetworkCache.m in Sources */,
+				9BDC241220621E310042E6D2 /* BaseViewController.m in Sources */,
 				9BFC7C071FE226D900C53E54 /* AFURLRequestSerialization.m in Sources */,
 				9B052248205915C1002879FC /* LeePopupContainerView.m in Sources */,
 				9B4B6F6B1FFC9BED0032C025 /* Lee_SQLSelectBuilder.m in Sources */,
+				9BDC23B2205FBA920042E6D2 /* LeeAssetsManager.m in Sources */,
 				9B1CE52D205620360025A143 /* LeeEmptyView.m in Sources */,
 				9B9D9402204E608B00FBB054 /* UIControl+Lee.m in Sources */,
 				9BFC7BDD1FE226AD00C53E54 /* YYMemoryCache.m in Sources */,
@@ -774,11 +853,14 @@
 				9B9D93DE204D000800FBB054 /* UINavigationBar+Transition.m in Sources */,
 				9B9D9420205102C800FBB054 /* UIView+Lee.m in Sources */,
 				9B9D93E1204D31FC00FBB054 /* UINavigationController+NavigationBarTransition.m in Sources */,
+				9BDC23B5205FC8300042E6D2 /* LeeAssetsGroup.m in Sources */,
 				9B9D941C204FE81F00FBB054 /* UITextView+Lee.m in Sources */,
 				9B9D9405204E745A00FBB054 /* UIImage+Lee.m in Sources */,
 				9B39B8D920201CA7009156BC /* RedView.m in Sources */,
+				9BDC23AB205FADFB0042E6D2 /* LeeZoomImageView.m in Sources */,
 				9B60CDB7205E548400205988 /* LeeFloatLayout.m in Sources */,
 				9B9A7C8A2044FF12000EAC50 /* ImageClipedManager.m in Sources */,
+				9B740EA9206E2C3500C74876 /* LeeSegmentView.m in Sources */,
 				9B1CE513205282140025A143 /* LeeUITextField.m in Sources */,
 				9BFC7C091FE226DF00C53E54 /* AFSecurityPolicy.m in Sources */,
 				9B9D940D204FCDEB00FBB054 /* UILabel+Lee.m in Sources */,
@@ -926,7 +1008,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LeeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -940,7 +1022,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LeeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
